@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 2026-10-13: 베타가 TestFlight로 옮겨 가서 이 페이지는 신청 페이지로 넘긴다. 링크를 받은
+     사람이 그대로 들어와도 길을 잃지 않게 자동으로 이동하고, 안 되면 아래 링크. -->
+<meta http-equiv="refresh" content="3; url=https://sift-closed-beta.vercel.app">
 <title>Sift 베타</title>
 <style>
   :root { color-scheme: dark; }
@@ -20,6 +23,7 @@
                drop-shadow(0 0 32px rgba(240,128,32,0.25)); }
   .tagline { margin: 18px 0 0; color: rgba(237,224,204,0.28); font-size: 11px; font-weight: 300; letter-spacing: 0.02em; }
   p { color: rgba(237,224,204,0.55); font-size: 14px; line-height: 1.6; }
+  a { color: #EDE0CC; text-decoration: none; border-bottom: 1px solid rgba(240,128,32,0.5); }
   small { display: block; margin-top: 24px; color: rgba(237,224,204,0.35); font-size: 12px; }
 </style>
 </head>
@@ -27,8 +31,9 @@
 <main>
   <h1>SIFT</h1>
   <p class="tagline">밤사이, 가지런히</p>
-  <p>첫 베타 빌드를 준비하고 있어요. 설치 버튼은 빌드가 올라오면 여기에 나타나요.</p>
-  <small>등록된 기기에서만 설치돼요</small>
+  <p>베타테스터 신청은 새 페이지에서 받아요. 잠시 후 자동으로 이동해요.</p>
+  <p><a href="https://sift-closed-beta.vercel.app">sift-closed-beta.vercel.app</a></p>
+  <small>TestFlight로 설치해요 · 신청하면 초대 메일이 가요</small>
 </main>
 </body>
 </html>
